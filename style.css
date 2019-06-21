@@ -1,12 +1,12 @@
 .container {
   height: 90vh;
-  background-color: orange;
+  background-color: gray;
   padding: 10px;
   font-size: 3em;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(20, 5%);
+  grid-template-rows: repeat(40, 2.5%);
   width: 600px;
 
 }
@@ -76,52 +76,84 @@
     height: 50px;
     width: 60px;
 }
+#mainsection {
+    display: grid;  
+    grid-column: 1;
+    grid-row: 4;
+}
+#mainsection img {
+    height: 305px;
+    width: 600px;
+}
 
 #gearicon {
     display: grid;  
-    grid-column: 
-    grid-row:   
+    grid-column: 1;
+    grid-row: 22;  
+}
+#gearicon img{
+    height: 60px;
+    width: 110px;
 }
 
 #follow {
     display: grid;
-    grid-column: 
-    grid-row: 
+    grid-column: 8;
+    grid-row: 22;
+}
+#follow img {
+    height: 60px;
+    width: 170px;
 }
 
 #profilepic {
     display: grid;  
-    grid-column: 
-    grid-row:   
+    grid-column: 1;
+    grid-row: 26  
 }
 
-#mainsection {
-    display: grid;  
-    grid-column: 
-    grid-row: 
+#profilepic img {
+    height: 120px;
+    width: 120px;
 }
 
 #home {
     display: grid;  
-    grid-column: 
-    grid-row: 
+    grid-column: 2;
+    grid-row: 38;
+}
+#home img {
+    height: 60px;
+    width: 90px;
 }
 #connect {
     display: grid;  
-    grid-column: 
-    grid-row: 
+    grid-column: 4;
+    grid-row: 38;
+}
+#connect img {
+    height: 60px;
+    width: 70px;
 }
 
 #discover {
     display: grid;  
-    grid-column: 
-    grid-row:   
+    grid-column: 7;
+    grid-row: 38  
+}
+#discover img {
+    height: 60px;
+    width: 70px;
 }
 
 #me {
     display: grid; 
-    grid-column: 
-    grid-row: 
+    grid-column: 9;
+    grid-row: 38
+}
+#me img {
+    height: 60px;
+    width: 70px;
 }
 
 
