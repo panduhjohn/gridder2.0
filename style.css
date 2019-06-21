@@ -1,0 +1,134 @@
+.container {
+  height: 90vh;
+  background-color: orange;
+  padding: 10px;
+  font-size: 3em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(20, 5%);
+  width: 600px;
+
+}
+
+#signal {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+#signal img {
+  height: 20px;
+  width: 140px;
+}
+#time {
+   display: grid;
+   grid-column: 5 / 6;
+   grid-row: 1;
+}
+#time img {
+    height: 20px;
+    width: 100px;
+}
+/*THIS IS EXACTLY HOW ITS DONE!!*/
+#battery {
+    display: grid;
+    grid-column: 10;
+    grid-row: 1;
+}
+#battery img {
+    height: 20px;
+    width: 50px;
+}
+/*THIS IS EXACTLY HOW ITS DONE!!*/
+#arrow {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+}
+#arrow img {
+    height: 50px;
+    width: 60px;
+}
+#profile {
+    display: grid;
+    grid-column: 5;
+    grid-row: 2;
+}
+#profile img{
+    height: 50px;
+    width: 130px;
+}
+#mag {
+    display: grid;
+    grid-column: 9 / 10;
+    grid-row: 2;
+}
+#mag img {
+    height: 50px;
+    width: 60px;
+}
+#feather {
+    display: grid;
+    grid-column: 10 / 11;
+    grid-row: 2;
+}
+#feather img {
+    height: 50px;
+    width: 60px;
+}
+
+#gearicon {
+    display: grid;  
+    grid-column: 
+    grid-row:   
+}
+
+#follow {
+    display: grid;
+    grid-column: 
+    grid-row: 
+}
+
+#profilepic {
+    display: grid;  
+    grid-column: 
+    grid-row:   
+}
+
+#mainsection {
+    display: grid;  
+    grid-column: 
+    grid-row: 
+}
+
+#home {
+    display: grid;  
+    grid-column: 
+    grid-row: 
+}
+#connect {
+    display: grid;  
+    grid-column: 
+    grid-row: 
+}
+
+#discover {
+    display: grid;  
+    grid-column: 
+    grid-row:   
+}
+
+#me {
+    display: grid; 
+    grid-column: 
+    grid-row: 
+}
+
+
+
+
+
+
+
+
+/*  */
