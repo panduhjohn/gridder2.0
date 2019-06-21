@@ -8,16 +8,14 @@
   grid-template-columns: repeat(10, 10%);
   grid-template-rows: repeat(40, 2.5%);
   width: 600px;
-
 }
-
 #signal {
   display: grid;
   grid-column: 1;
   grid-row: 1;
 }
 #signal img {
-  height: 20px;
+  height: 25px;
   width: 140px;
 }
 #time {
@@ -26,20 +24,18 @@
    grid-row: 1;
 }
 #time img {
-    height: 20px;
+    height: 25px;
     width: 100px;
 }
-/*THIS IS EXACTLY HOW ITS DONE!!*/
 #battery {
     display: grid;
     grid-column: 10;
     grid-row: 1;
 }
 #battery img {
-    height: 20px;
+    height: 25px;
     width: 50px;
 }
-/*THIS IS EXACTLY HOW ITS DONE!!*/
 #arrow {
     display: grid;
     grid-column: 1;
@@ -85,7 +81,6 @@
     height: 305px;
     width: 600px;
 }
-
 #gearicon {
     display: grid;  
     grid-column: 1;
@@ -116,11 +111,10 @@
     height: 120px;
     width: 120px;
 }
-
 #home {
     display: grid;  
     grid-column: 2;
-    grid-row: 38;
+    grid-row: 37;
 }
 #home img {
     height: 60px;
@@ -129,38 +123,91 @@
 #connect {
     display: grid;  
     grid-column: 4;
-    grid-row: 38;
+    grid-row: 37;
 }
 #connect img {
     height: 60px;
     width: 70px;
 }
-
 #discover {
     display: grid;  
     grid-column: 7;
-    grid-row: 38  
+    grid-row: 37;  
 }
 #discover img {
     height: 60px;
     width: 70px;
 }
-
 #me {
     display: grid; 
     grid-column: 9;
-    grid-row: 38
+    grid-row: 37
 }
 #me img {
     height: 60px;
     width: 70px;
 }
 
+#tweet {
+    display: grid; 
+    grid-column: 2;
+    grid-row: 16;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
+#tweets {
+    display: grid; 
+    grid-column: 2;
+    grid-row: 17;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: blue;
 
+}
+#stalking {
+    display: grid; 
+    grid-column: 5;
+    grid-row: 16;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
+#stalkings {
+    display: grid; 
+    grid-column: 5;
+    grid-row: 17;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: blue;
+}
 
+#stalker {
+    display: grid; 
+    grid-column: 8;
+    grid-row: 16;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
+#stalkers {
+    display: grid; 
+    grid-column: 8;
+    grid-row: 17;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: blue;
+}
 
-
-/*  */
+#news {
+    display: grid; 
+    grid-column: 9;
+    grid-row: 26
+}
+#news img {
+    height: 30px;
+    width: 30px;
+}
