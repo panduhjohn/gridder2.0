@@ -9,6 +9,10 @@
   grid-template-rows: repeat(40, 2.5%);
   width: 600px;
 }
+/* .header {
+    display: grid;
+} */
+
 #signal {
   display: grid;
   grid-column: 1;
@@ -20,7 +24,7 @@
 }
 #time {
    display: grid;
-   grid-column: 5 / 6;
+   grid-column: 5;
    grid-row: 1;
 }
 #time img {
@@ -201,13 +205,38 @@
     font-family: sans-serif;
     color: blue;
 }
+#name {
+    display: grid;
+    grid-column: 3;
+    grid-row: 23 / 24;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+/* #name p {
+    width: 100px; */
 
 #news {
     display: grid; 
     grid-column: 9;
-    grid-row: 26
+    grid-row: 26;
 }
 #news img {
     height: 30px;
     width: 30px;
+}
+
+#hour {
+    display: grid;
+    grid-column: 10;
+    grid-row: 25;
+    font-size: 20px;
+    font-family: sans-serif;    
+}
+
+#space {
+    display: grid;
+    grid-column: 6;
+    grid-row: 25;
+    font-size: 20px;
+    font-family: sans-serif;  
 }
